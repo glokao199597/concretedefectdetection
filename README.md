@@ -1,1 +1,4 @@
-# concretedefectdetection
+# Concrete Defect Detection
+**Design/methodology/approach –** The dataset contains concrete images having cracks. The data is collected from various METU Campus Buildings. The dataset is divided into two as negative and positive crack images for image classification. Each class has 10000 images with a total of 20000 images with 227 x 227 pixels with RGB channels. Training and testing images are 224x224 pixels in size. In order to find out the most efficient model architecture for the problem, we have broken down this problem into two parts: (1) Binary Classification and (2) Segmentation.
+
+**Findings –** The experimental results revealed that the proposed binary classifier has yielded an accuracy of 99% with 0.3 as the thresholding value. The segmentation model has yielded an dice score of 93%.
